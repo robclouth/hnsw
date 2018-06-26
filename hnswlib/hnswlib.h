@@ -10,7 +10,9 @@
 
 #include <queue>
 
-#include <string.h>
+#include <string>
+#include <sstream>
+#include <iostream>
 
 #if defined(__GNUC__)
 #define PORTABLE_ALIGN32 __attribute__((aligned(32)))
